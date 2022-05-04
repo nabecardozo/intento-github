@@ -1,0 +1,194 @@
+
+.body-index{
+    margin: 2px;
+    border: 2px;
+}
+.navindex {
+    background-image: url(./imag/el\ dios\ de\ caos.jpg);
+    color: azure;
+    
+}
+/*listas*/
+a {
+    color: azure;
+    font-size: 20px;
+
+}
+    /*edition index.html*/
+.body-index {
+    background-color: rgb(0, 0, 0);
+}
+.title {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 30px;
+    text-align: center;
+}
+/*subtit*/
+.paradigma {
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+/*imagen del header*/
+.profesia {
+    width: 400px;
+}
+/*modifico el main paraelmediacreen and*/
+.main {
+    color: aliceblue;
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+ }
+ /*modifica img*/
+.img-nasa, .estrategia, .defen-2, .defensa, .img-mayas, .mayas {
+    /*border: solid 1px;*/
+    padding: 100px;
+    width: 100px;
+    
+    
+}
+
+.controla {
+    /*width: 170px;
+    left: 0%;
+    right: 0%;*/
+    height: 100px;
+}
+/*footer*/
+
+.footer-index {
+    color: azure;
+    font-size: 50px;
+    font-weight: 50px;
+   font-size: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/*media queries index*/
+@media screen and (min-width: 768px){
+    .main {
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3 700px);
+        
+
+            grid-template-areas: 
+            "img-nasa estrategia"
+            "defen-2 defensa"
+            "img-mayas mayas";
+         }
+         .img-nasa {
+            grid-area: img-nasa;
+        }
+        .estrategia {
+            grid-area: estrategia;
+        }
+        .defen-2 {
+            grid-area: defen-2;
+        }
+        .defensa {
+            grid-area: defensa;
+        }
+        .img-mayas {
+            grid-area: img-mayas;
+        }
+        .mayas {
+            grid-area: mayas;
+        }
+        .img-nasa, .estrategia, .defen-2, .defensa, .img-mayas, .mayas {
+            padding: 100px;
+            width: 76%;
+            margin: 10px;
+
+        }
+        .profesia {
+    width: 800px;
+        }
+        .controla {
+            height: 210px;
+        }
+        .paradigma {
+            font-size: 60px;
+        }
+        .title {
+            font-size: 100px;
+        }
+    }
+   
+/*html origen*/
+
+.nav-origen {
+background-position: 30px;
+background-image: url(./imag/cielo\ estrellad.jpg);
+color: black;
+}
+.origen {
+    background-color: rgb(225, 225, 248);
+    color: black;
+}
+.header-origen {
+    color: black;
+    font-size: 200px;
+}
+.lista-origen {
+    color: black;
+}
+
+/*multimedia css*/
+.nav-multimedia {
+    color: black;
+    
+}
+.multi- {
+    background-image: url(./imag/multimediat.jpg);
+    height: 300px;
+}
+/*titulo */
+.titulito {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*subtit*/
+.transformar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    height: 60px;
+
+   
+}
+
+/*transit*/
+.hover {
+    height: 100px;
+
+transform: rotateY(50deg);
+}
+/*transition*/
+.boton {
+    background-color: rgb(162, 93, 227);
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(214, 10, 207);
+    display: inline-block;
+    transition: all 300ms ease-in-out;
+}
+.boton:hover {
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 5px solid rebeccapurple;
+    padding: 3px;
+
+
+}
