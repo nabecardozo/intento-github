@@ -192,3 +192,19 @@ transform: rotateY(50deg);
 
 
 }
+/*informacion html*/
+/*modiico al nav de info*/
+
+.info-nav {
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*modificar asteroide html*/
+
+.aste-nav {
+    color: black;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
