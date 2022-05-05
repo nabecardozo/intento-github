@@ -139,7 +139,7 @@ color: black;
 }
 .header-origen {
     color: black;
-    font-size: 200px;
+    font-size: 30px;
 }
 .lista-origen {
     color: black;
@@ -196,15 +196,28 @@ transform: rotateY(50deg);
 /*modiico al nav de info*/
 
 .info-nav {
-    color: black;
+    color: rgb(102, 0, 0);
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+
 }
+.titulo-info {
+    color: brown;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*.card {
+    background-color: rgb(156, 150, 150);
+    width: max-content;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: 20px 20px;
+}*/
 /*modificar asteroide html*/
 
 .aste-nav {
-    color: black;
+    color: rgb(255, 0, 0);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
