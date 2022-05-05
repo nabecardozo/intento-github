@@ -150,9 +150,9 @@ color: black;
     color: black;
     
 }
-.multi- {
-    background-image: url(./imag/multimediat.jpg);
-    height: 300px;
+
+.vida {
+    color: black;
 }
 /*titulo */
 .titulito {
@@ -176,7 +176,7 @@ transform: rotateY(50deg);
 }
 /*transition*/
 .boton {
-    background-color: rgb(162, 93, 227);
+    background-color: rgb(125, 60, 185);
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
