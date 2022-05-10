@@ -54,6 +54,9 @@ a {
     
     
 }
+.card-img-top {
+    height: 290px;
+}
 
 .controla {
     /*width: 170px;
@@ -75,6 +78,8 @@ a {
     justify-content: space-around;
 
 }
+/*card*/
+
 /*media queries index*/
 @media screen and (min-width: 768px){
     .main {
@@ -132,6 +137,14 @@ a {
             margin: 30px;
             
              }
+
+             .card {
+                 font-size: 30px;
+                 text-align: center;
+             }
+             .card-img-top {
+                 height: 340px;
+             }
     }
    
 /*html origen*/
@@ -142,7 +155,7 @@ background-image: url(./imag/cielo\ estrellad.jpg);
 color: black;
 }
 .origen {
-    background-color: rgb(225, 225, 248);
+    background-color: rgb(162, 155, 155);
     color: black;
 }
 .header-origen {
@@ -215,19 +228,19 @@ transform: rotateY(50deg);
     font-size: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/*.card {
-    background-color: rgb(156, 150, 150);
-    width: max-content;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: 20px 20px;
-}*/
-/*modificar asteroide html*/
 
+.card-info {
+    padding: 48px;
+}
+/*html asteroide*/
 .aste-nav {
     color: rgb(255, 0, 0);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.titulo-aste {
+    font-size: 80px;
+    color: brown;
 }
 /*footer*/
 .footer-aste {
