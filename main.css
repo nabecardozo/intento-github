@@ -20,16 +20,17 @@ a {
 }
 .title {
     color: aliceblue;
-    font-size: 30px;
+    font-size: 39px;
     font-weight: 30px;
     text-align: center;
 }
 /*subtit*/
 .paradigma {
     color: aliceblue;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
-    margin-left: 50px;
+    position: center;
+    margin-left: 20px;
     margin-right: 0px;
 }
 /*imagen del header*/
@@ -124,6 +125,13 @@ a {
         .title {
             font-size: 100px;
         }
+        .paradigma {
+            color: aliceblue;
+            font-size: 32px;
+            text-align: center;
+            margin: 30px;
+            
+             }
     }
    
 /*html origen*/
