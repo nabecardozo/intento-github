@@ -19,7 +19,7 @@ a {
     background-color: rgb(0, 0, 0);
 }
 header {
-     .title {
+ .title {
         color: aliceblue;
     font-size: 39px;
     font-weight: 30px;
@@ -69,7 +69,7 @@ header {
 /*footer*/
 
 .footer-index {
-    color: azure;
+    color: rgb(2, 15, 15);
     font-size: 50px;
     font-weight: 50px;
    font-size: 50px;
@@ -227,7 +227,7 @@ transform: rotateY(50deg);
 }
 .titulo-info {
     color: brown;
-    font-size: 100px;
+    font-size: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -247,4 +247,44 @@ transform: rotateY(50deg);
 /*footer*/
 .footer-aste {
     color: black;
+}
+
+// aplicando maps a elementos
+$colores: (
+    
+    origen: black,
+    multimedia: black,
+
+);
+@each $nav, $color in $colores {
+    .nav-#{$nav} {
+        color: $color;
+    }
+}
+
+//extend
+
+.footer {
+    color: black;
+    font-size: 50px;
+    font-weight: 50px;
+   font-size: 50px;
+    
+}
+
+.footer-aste {
+    @extend .footer;
+
+    color: blue;
+}
+
+ 
+//mixins a el body de mi index
+
+@mixin size ($espaciado, $borde){
+    margin: $espaciado;
+    border: $borde;
+}
+.body-index {
+    @include size(2px,2px)
 }
