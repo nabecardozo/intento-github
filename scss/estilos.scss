@@ -1,8 +1,4 @@
 
-.body-index{
-    margin: 2px;
-    border: 2px;
-}
 .navindex {
     background-image: url(../imag/economian.jpg);
     color: azure;
@@ -249,7 +245,7 @@ transform: rotateY(50deg);
     color: black;
 }
 
-// aplicando maps a elementos
+// aplicando maps a elementos de index origen y multimedia
 $colores: (
     
     origen: black,
@@ -288,3 +284,4 @@ $colores: (
 .body-index {
     @include size(2px,2px)
 }
+//cambie en squoosh imagnes de mi index para que pese menos en mi proyecto, bajando la calidad
