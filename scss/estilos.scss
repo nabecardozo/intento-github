@@ -1,40 +1,45 @@
-
 .navindex {
     background-image: url(../imag/economian.jpg);
-    color: azure;
-    
+    color: rgb(0, 0, 0);
+
 }
+
 /*listas*/
 a {
     color: azure;
     font-size: 20px;
 
 }
-    /*edition index.html*/
+
+/*edition index.html*/
 .body-index {
-    background-color: rgb(73, 65, 65);
+    background-color: rgb(0, 0, 0);
 }
+
 header {
- .title {
+    .title {
         color: aliceblue;
-    font-size: 39px;
-    font-weight: 30px;
-    text-align: center;
+        font-size: 39px;
+        font-weight: 30px;
+        text-align: center;
     }
- }
+}
+
 /*subtit*/
 .paradigma {
     color: aliceblue;
-    font-size: 25px;
+    font-size: 10px;
     text-align: center;
     position: center;
     margin-left: 20px;
     margin-right: 0px;
 }
+
 /*imagen del header*/
 .profesia {
     width: 400px;
 }
+
 /*modifico el main paraelmediacreen and*/
 .main {
     color: aliceblue;
@@ -43,17 +48,28 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
- }
- /*modifica img*/
-.img-nasa, .estrategia, .defen-2, .defensa, .img-mayas, .mayas {
+}
+
+
+/*modifica img*/
+.img-nasa,
+.estrategia,
+.defen-2,
+.defensa,
+.img-mayas,
+.mayas {
     /*border: solid 1px;*/
     padding: 100px;
     width: 100px;
-    
-    
+
+
 }
+
 .card-img-top {
-    height: 290px;
+    height: 0px;
+    padding: 100px;
+    width: 150px;
+    background-color: black;
 }
 
 .controla {
@@ -62,104 +78,127 @@ header {
     right: 0%;*/
     height: 100px;
 }
+
 /*footer*/
 
 .footer-index {
     color: rgb(2, 15, 15);
     font-size: 50px;
     font-weight: 50px;
-   font-size: 50px;
-    
+    font-size: 50px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 
 }
+
 /*card*/
 
 /*media queries index*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .main {
         font-size: 50px;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: repeat(3 700px);
-        
 
-            grid-template-areas: 
+
+        grid-template-areas:
             "img-nasa estrategia"
             "defen-2 defensa"
             "img-mayas mayas";
-         }
-         .img-nasa {
-            grid-area: img-nasa;
-        }
-        .estrategia {
-            grid-area: estrategia;
-        }
-        .defen-2 {
-            grid-area: defen-2;
-        }
-        .defensa {
-            grid-area: defensa;
-        }
-        .img-mayas {
-            grid-area: img-mayas;
-        }
-        .mayas {
-            grid-area: mayas;
-        }
-        .img-nasa, .estrategia, .defen-2, .defensa, .img-mayas, .mayas {
-            padding: 100px;
-            width: 76%;
-            margin: 10px;
-
-        }
-        .profesia {
-    width: 800px;
-        }
-        .controla {
-            height: 210px;
-        }
-        .paradigma {
-            font-size: 60px;
-        }
-        .title {
-            font-size: 100px;
-        }
-        .paradigma {
-            color: aliceblue;
-            font-size: 32px;
-            text-align: center;
-            margin: 30px;
-            
-             }
-
-             .card {
-                 font-size: 30px;
-                 text-align: center;
-             }
-             .card-img-top {
-                 height: 340px;
-             }
     }
-   
+
+    .img-nasa {
+        grid-area: img-nasa;
+    }
+
+    .estrategia {
+        grid-area: estrategia;
+    }
+
+    .defen-2 {
+        grid-area: defen-2;
+    }
+
+    .defensa {
+        grid-area: defensa;
+    }
+
+    .img-mayas {
+        grid-area: img-mayas;
+    }
+
+    .mayas {
+        grid-area: mayas;
+    }
+
+    .img-nasa,
+    .estrategia,
+    .defen-2,
+    .defensa,
+    .img-mayas,
+    .mayas {
+        padding: 100px;
+        width: 76%;
+        margin: 10px;
+
+    }
+
+    .profesia {
+        width: 800px;
+    }
+
+    .controla {
+        height: 210px;
+    }
+
+    .paradigma {
+        font-size: 60px;
+    }
+
+    .title {
+        font-size: 100px;
+    }
+
+    .paradigma {
+        color: aliceblue;
+        font-size: 32px;
+        text-align: center;
+        margin: 30px;
+
+    }
+
+    .card {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .card-img-top {
+        height: 340px;
+    }
+}
+
 /*html origen*/
 
 .nav-origen {
-background-position: 30px;
-background-image: url(../imag/asteroide.jpg);
-color: black;
+    background-position: 30px;
+    background-image: url(../imag/asteroide.jpg);
+    color: black;
 }
+
 .origen {
     background-color: rgb(162, 155, 155);
     color: black;
 }
+
 .header-origen {
     color: black;
     font-size: 30px;
 }
+
 .lista-origen {
     color: black;
 }
@@ -167,32 +206,35 @@ color: black;
 /*multimedia css*/
 .nav-multimedia {
     color: black;
-    
+
 }
 
 .vida {
     color: black;
 }
+
 /*titulo */
 .titulito {
     font-size: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 /*subtit*/
 .transformar {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
     height: 60px;
 
-   
+
 }
 
 /*transit*/
 .hover {
     height: 100px;
 
-transform: rotateY(50deg);
+    transform: rotateY(50deg);
 }
+
 /*transition*/
 .boton {
     background-color: rgb(125, 60, 185);
@@ -203,6 +245,7 @@ transform: rotateY(50deg);
     display: inline-block;
     transition: all 300ms ease-in-out;
 }
+
 .boton:hover {
     background-color: black;
     color: aliceblue;
@@ -211,6 +254,7 @@ transform: rotateY(50deg);
 
 
 }
+
 /*informacion html*/
 /*modiico al nav de info*/
 
@@ -221,6 +265,7 @@ transform: rotateY(50deg);
 
 
 }
+
 .titulo-info {
     color: brown;
     font-size: 80px;
@@ -230,16 +275,19 @@ transform: rotateY(50deg);
 .card-info {
     padding: 48px;
 }
+
 /*html asteroide*/
 .aste-nav {
     color: rgb(255, 0, 0);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .titulo-aste {
     font-size: 80px;
     color: brown;
 }
+
 /*footer*/
 .footer-aste {
     color: black;
@@ -247,12 +295,13 @@ transform: rotateY(50deg);
 
 // aplicando maps a elementos de index origen y multimedia
 $colores: (
-    
     origen: black,
     multimedia: black,
 
 );
-@each $nav, $color in $colores {
+
+@each $nav,
+$color in $colores {
     .nav-#{$nav} {
         color: $color;
     }
@@ -264,8 +313,8 @@ $colores: (
     color: black;
     font-size: 50px;
     font-weight: 50px;
-   font-size: 50px;
-    
+    font-size: 50px;
+
 }
 
 .footer-aste {
@@ -274,14 +323,16 @@ $colores: (
     color: blue;
 }
 
- 
+
 //mixins a el body de mi index
 
-@mixin size ($espaciado, $borde){
+@mixin size ($espaciado, $borde) {
     margin: $espaciado;
     border: $borde;
 }
+
 .body-index {
-    @include size(2px,2px)
+    @include size(2px, 2px)
 }
+
 //cambie en squoosh imagnes de mi index para que pese menos en mi proyecto, bajando la calidad
