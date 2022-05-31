@@ -99,9 +99,9 @@ header {
 /*media queries index*/
 @media screen and (min-width: 768px) {
     .main {
-        font-size: 50px;
+        font-size: 30px;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 50%;
         grid-template-rows: repeat(3 700px);
 
 
@@ -184,7 +184,8 @@ header {
 /*html origen*/
 
 .nav-origen {
-    background-position: 30px;
+    background-position: 20px;
+    height: 20px;
     background-image: url(../imag/asteroide.jpg);
     color: black;
 }
