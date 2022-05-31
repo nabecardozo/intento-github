@@ -44,83 +44,50 @@
         </ul>
 
     </nav>
-    <header class="conteiner">
-        <div class="row">
-            <div class="col">
-                <h1 class="titulo-info">informacion</h1>
-                <h3>Los dioses mayas más importantes</h3>
-                <p> Existen tres textos mayas que sobrevivieron a la quema de los españoles (Popol Vuh, Chilam Balam, y
-                    Las
-                    Crónicas de Chacxulubchen); son de donde se ha extraído la mayor parte de la información que se
-                    tiene
-                    hasta ahora de dicha cultura y su religión. Partiendo de estos documentos, a continuación
-                    revisaremos un
-                    listado de los dioses mayas más influentes.</p>
-            </div>
-        </div>
-        <div class="col">
-            <section class="card-info" style="background-color: rgb(162, 155, 155);">
-                <div class="card" style="width: 20rem; background-color: rgb(212, 196, 196);">
-                    <img src="../imag/nuevaera.maya.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <h4>una profesia del calendario maya. en el año 2012 los seres humanos entraran en una nueva
-                            civilizacion.</h4> segun los mayas el 21 de diciembre del año 2012 es el fin de esta
-                        civilizacion humana, ellos no mencionaron la causa. pero hay una cosa clara,el ultimo dia no
-                        significara el arribo de ninguna calamidad; en cambio
-                        implica una nueva conciencia cosmica y una transicion espiritual hacia la nueva civilizacion</p>
-                    </div>
-                    <div class="card" style="width: 20rem; background-color: rgb(212, 196, 196);">
-                        <img src="../imag/satelital300.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">
-                            <h4>la ciencia dice que es una conciencia mas elevada</h4> La ciencia de la Nueva Era está
-                            basada en una creencia en el cambio evolutivo positivo con el tiempo. Este enfoque no se
-                            centra
-                            tanto en los cambios biológicos como en el enfatizar que la humanidad está ascendiendo hacia
-                            una
-                            era de conciencia más elevada</p>
-                        </div>
-            </section>
-        </div>
+
+    <header>
+        <h1 class="titulo-info">información</h1>
     </header>
 
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imag/porfmayas-1-e1567560053583.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imag/porfiopol-vuh-libro-sagrado-mayas.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imag/porfioPopol-Vuh.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     <main>
-        <section>
-
-            <table border="1" cellspacing="10" cellpadding="10">
-                <tr>
-                    <th>portal cultura maya</th>
-                    <th>cosmogonia maya</th>
-                    <th>dioses mayas</th>
-                    <th>sagrado</th>
-                </tr>
-                <tr>
-                    <td>chaac</td>
-                    <td>dios de los relampagos</td>
-                    <td>ixchel</td>
-                    <td>diosa del amor</td>
-                </tr>
-                <tr>
-
-                    <td>kauil</td>
-                    <td>dios del fuego</td>
-                    <td>yum kaax</td>
-                    <td>dios del maiz</td>
-                </tr>
-                <tr>
-                    <td>hunab ku</td>
-                    <td>padres de los dioses</td>
-                    <td>itzamna</td>
-                    <td>dios del cielo</td>
-                </tr>
-                <tr>
-                    <td>ek chuah</td>
-                    <td>dios del cacao</td>
-                    <td>buluc chabtan</td>
-                    <td>dios de la guerra</td>
-                </tr>
-        </section>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">completa email con nombre de usuario</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">recordar</label>
+            </div>
+            <button type="submit" class="btn btn-primary">enter</button>
+        </form>
     </main>
 
     <footer>

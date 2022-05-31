@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navindex {
   background-image: url(../imag/economian.jpg);
   color: black; }
@@ -56,9 +57,6 @@ header .title {
   background-color: black; }
 
 .controla {
-  /*width: 170px;
-    left: 0%;
-    right: 0%;*/
   height: 100px; }
 
 /*footer*/
@@ -76,11 +74,21 @@ header .title {
 /*media queries index*/
 @media screen and (min-width: 768px) {
   .main {
-    font-size: 50px;
+    font-size: 30px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(3 700px);
+    grid-template-columns: 45% 55%;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 2px;
     grid-template-areas: "img-nasa estrategia" "defen-2 defensa" "img-mayas mayas"; }
+  .estrategia {
+    display: grid;
+    font-weight: auto; }
+  .defensa {
+    display: grid;
+    font-weight: auto; }
+  .defen-2 {
+    display: grid;
+    font-weight: auto; }
   .img-nasa {
     grid-area: img-nasa; }
   .estrategia {
@@ -103,16 +111,16 @@ header .title {
     width: 76%;
     margin: 10px; }
   .profesia {
-    width: 800px; }
+    width: 400px; }
   .controla {
-    height: 210px; }
+    height: 184px; }
   .paradigma {
-    font-size: 60px; }
+    font-size: 50px; }
   .title {
     font-size: 100px; }
   .paradigma {
     color: aliceblue;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     margin: 30px; }
   .card {
@@ -121,9 +129,27 @@ header .title {
   .card-img-top {
     height: 340px; } }
 
+/*media queries index mobile*/
+@media screen and (min-width: 320px) {
+  .controla {
+    width: max-content;
+    height: 176px; }
+  .p {
+    display: grid;
+    height: auto;
+    width: auto; }
+  .img-nasa,
+  .estrategia,
+  .defen-2,
+  .defensa,
+  .img-mayas,
+  .mayas {
+    padding: 50px;
+    width: 0px; } }
+
 /*html origen*/
 .nav-origen {
-  background-position: 30px;
+  background-position: 50px;
   background-image: url(../imag/asteroide.jpg);
   color: black; }
 
@@ -137,6 +163,13 @@ header .title {
 
 .lista-origen {
   color: black; }
+
+/* mobile origen achicar el tamaño de la letra*/
+@media screen and (min-width: 320px) {
+  .header-origen {
+    font-size: 16px; }
+  .main-origen {
+    font-size: 15px; } }
 
 /*multimedia css*/
 .nav-multimedia {
@@ -179,6 +212,9 @@ header .title {
 
 /*informacion html*/
 /*modiico al nav de info*/
+.card {
+  box-shadow: none; }
+
 .info-nav {
   color: #660000;
   font-size: 20px;
@@ -189,8 +225,19 @@ header .title {
   font-size: 80px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
-.card-info {
-  padding: 48px; }
+.carousel-inner .carousel-item {
+  width: 70% !important; }
+
+@media screen and (min-width: 320px) {
+  .titulo-info {
+    font-size: 28px;
+    font-family: monospace; }
+  .body-info {
+    padding: 20px; }
+  main .section-info {
+    padding: 0px;
+    height: 40px;
+    margin: 5px; } }
 
 /*html asteroide*/
 .aste-nav {
@@ -199,8 +246,14 @@ header .title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 .titulo-aste {
-  font-size: 80px;
+  font-size: 60px;
   color: brown; }
+
+.economian {
+  width: 60%; }
+
+.card {
+  background-color: #a29b9b; }
 
 /*footer*/
 .footer-aste {
