@@ -347,17 +347,35 @@ header {
 
 /*html asteroide*/
 .aste-nav {
-    color: rgb(255, 0, 0);
+    color: rgb(251, 251, 251);
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 .titulo-aste {
-    font-size: 60px;
-    color: brown;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .economian {
     width: 60%;
+}
+.estrellado {
+    color: aliceblue;
+    font-size: 20px;
+}
+.preventiva {
+    width: 680px;
+}
+.body-aste {
+    margin: 10px;
+}
+.ultima {
+    color: aliceblue;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
 }
 .card {
 background-color: rgb(162, 155, 155);
